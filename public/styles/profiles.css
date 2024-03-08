@@ -1,0 +1,89 @@
+#user-controls,
+#new-user,
+.user-item {
+  margin: 2rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#user-profiles ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-item form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.user-item form button {
+  background: none;
+  border: none;
+  color: black;
+  font-weight: 500;
+  background-color: rgb(157, 157, 180);
+  height: 2rem;
+  width: 5rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.user-item form input {
+  display: none;
+}
+.user-item form button:hover {
+  background-color: rgb(105, 105, 107);
+  cursor: pointer;
+}
+.user-item article {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.user-item img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-item h2 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin: 0.5rem 1rem;
+  color: rgb(97, 92, 92);
+}
+
+#new-user {
+  text-align: left;
+}
+
+.form-control {
+  margin: 0.5rem 0;
+}
+
+#image-preview {
+  display: none;
+}
+
+#image-preview {
+  height: 7rem;
+  width: 7rem;
+  object-fit: cover;
+}
+
+#image-preview-saved {
+  display: block;
+  height: 7rem;
+  width: 7rem;
+  object-fit: cover;
+}
